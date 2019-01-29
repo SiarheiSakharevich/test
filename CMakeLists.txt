@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5.2)
 
-include("$ENV{SBISPlatformSDK_19357}/tools/cmake_support/sbis.cmake")
+include("$ENV{SBISPlatformSDK_19300}/tools/cmake_support/sbis.cmake")
 
 sbis_create_project("sbis-disk-edo-service" library DEPENDS boost_headers)
 
